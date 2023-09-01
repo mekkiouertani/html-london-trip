@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viaggio a Londra</title>
 </head>
+
 <body>
     <!-- HEADER: titolo con immagine -->
     <header>
         <h1>Il mio Viaggio a Londra</h1>
-            <img src="img/pexels-bill-emrich-230794-0.jpg" alt="img1"><!--
+        <img src="img/pexels-bill-emrich-230794-0.jpg" alt="img1"><!--
          --><img src="img/pexels-bill-emrich-230794-1.jpg" alt="img2"><!--
          --><img src="img/pexels-bill-emrich-230794-2.jpg" alt="img3">
         <hr>
@@ -17,34 +19,40 @@
     <!-- MAIN: contiene 3 sezioni -->
     <main>
         <!-- SECTION 1: tabella -->
-        <section> 
+        <section>
             <h3>Le mie spese</h3>
             <table>
-                <tr>
-                    <th>Numero</th>
-                    <th>Descrizione</th>
-                    <th>Costo</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120&euro;</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120&euro;</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120&euro;</td>
-                </tr>
-                <tr>
-                    <td>Totale</td>
-                    <td>&nbsp;</td>
-                    <td>360&euro;</td>
-                </tr>
+                <thead> <!-- tag semantico per indicare l'head della tabelle -->
+                    <tr>
+                        <th>Numero</th>
+                        <th>Descrizione</th>
+                        <th>Costo</th>
+                    </tr>
+                </thead>
+                <tbody> <!-- tag semantico per indicare il body della tabelle -->
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120&euro;</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120&euro;</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120&euro;</td>
+                    </tr>
+                </tbody>
+                <tfoot> <!-- tag semantico per indicare il foot della tabelle -->
+                    <tr>
+                        <td>Totale</td>
+                        <td>&nbsp;</td>
+                        <td>360&euro;</td>
+                    </tr>
+                </tfoot>
             </table>
             <hr>
         </section>
@@ -89,10 +97,11 @@
     <!-- footer: galleria finale -->
     <footer>
         <h4>Le foto</h4>
-            <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg"
-                alt="paesaggio-1">
-            <img src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n"
-                alt="paesaggio-2">
+        <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg"
+            alt="paesaggio-1">
+        <img src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n"
+            alt="paesaggio-2">
     </footer>
 </body>
+
 </html>
